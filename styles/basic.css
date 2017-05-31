@@ -65,7 +65,7 @@ body {
 
 .skill-col {
   display: inline-block;
-  min-width: 125px;
+  min-width: 185px;
   max-width: 25%;
   vertical-align: top;
   margin: 10px;
@@ -169,7 +169,7 @@ body {
 }
 
 
-/*
+
 * {
   border-width: 1px !important;
   border-color: pink !important;
