@@ -14,16 +14,16 @@ body {
 
 .nav-menu {
   background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.0);
+  background-color: rgba(0, 0, 0, 1);
   width: 100%;
-  padding-top: 22px;
-  padding-bottom: 22px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .nav-logo {
   position: absolute;
-  max-width: 70px;
-  left: 8px;
+  max-width: 115px;
+  left: 13px;
   top: 8px;
 }
 
@@ -32,9 +32,9 @@ body {
   position: absolute;
   right: 2px;
   padding: 5px 5px;
-  font-size: 8px;
+  font-size: 13px;
   letter-spacing: 3px;
-  top: 14px;
+  top: 20px;
   font-weight: bold;
 }
 
@@ -58,7 +58,7 @@ body {
   padding-bottom: 25px;
   background-color: white;
   color: black;
-  font-size: 12px;
+  font-size: 20px;
   text-align: center;
   width: 100%;
 }
@@ -136,11 +136,6 @@ body {
   background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/mountain_snow.jpg')
 }
 
-.more-blah {
-  font-weight: bolder;
-  font-size: 96px;
-  letter-spacing: 4px;
-}
 
 .resize-hex {
   max-width: 50%;
@@ -152,7 +147,7 @@ body {
   background-color: black;
   display: inline-block;
   text-align: center;
-  font-size: 8px;
+  font-size: 12px;
   width: 100%;
   height: 20px;
 }
