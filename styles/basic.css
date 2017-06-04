@@ -73,6 +73,13 @@ body {
   text-align: center;
 }
 
+@media only screen and (max-width: 455px) {
+  .skill-col {
+    max-width: 80%;
+  }
+
+}
+
 
 .skill-icons {
   max-width: 25%;
@@ -102,6 +109,8 @@ body {
   text-align: center;
 }
 
+
+
 .content-card-outer {
   background-color: rgb(255, 255, 255);
   background-color: rgba(255, 255, 255, 0.7);
@@ -112,6 +121,17 @@ body {
   display: block;
 }
 
+@media only screen and (max-width: 755px) {
+  .content-card-outer {
+    max-width: 40%;
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  .content-card-outer {
+    max-width: 80%;
+  }
+}
 .content-card-inner {
   border: 3px solid black;
   padding: 5px;
