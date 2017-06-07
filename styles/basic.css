@@ -4,6 +4,12 @@ body {
   font-family: sans-serif;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .title-container {
   padding-bottom: 70px;
   text-align: center;
@@ -31,9 +37,9 @@ body {
 
 .nav-logo {
   position: absolute;
-  max-width: 115px;
+  max-width: 200px;
   left: 13px;
-  top: 8px;
+  top: 11px;
 }
 
 .nav-links li {
@@ -60,6 +66,30 @@ body {
   margin: auto;
   margin-top: 0px;
   margin-bottom: 0px;
+  padding:10px 5px;
+  transition: transform 0.2s ease;
+}
+
+.down-arrow:hover{
+  transform: translateY(-10px);
+}
+
+.welcome {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  background-color: #21a273;
+  color: white;
+}
+
+strong {
+  font-weight: bolder;
+}
+
+.welcome-content {
+  padding: 0px 30px;
 }
 
 .skills {
@@ -70,6 +100,7 @@ body {
   font-size: 20px;
   text-align: center;
   width: 100%;
+  line-height: 125%;
 }
 
 .skill-col {
@@ -145,6 +176,8 @@ body {
   border: 3px solid black;
   padding: 5px;
   color: black;
+  line-height: 125%;
+  font-size: 18px;
 }
 
 .content-text-block {
@@ -154,15 +187,43 @@ body {
 
 .skills .project-card {
   display: block;
-  background-color: rgb(255, 255, 255);
-  background-image: linear-gradient( rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),url('../img/project_placeholder.png');
+  text-align: center;
+  margin: auto;
   background-size: cover;
   min-width: 175px;
   max-width: 25%;
 }
 
+#project-1 {
+  background-image: url('../img/project_1.png');
+}
+
+#project-2 {
+  background-image: url('../img/project_2.png');
+}
+
+.skills .content-card-outer {
+  opacity: 0;
+  max-width: 100%;
+  height: 100%;
+  transition: opacity 0.5s ease;
+}
+
+.skills .content-card-inner {
+  height: 85%;
+}
+
+.skills .content-card-outer:hover {
+  opacity: 80;
+}
+
 .content-3.content-area {
   background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/mountain_snow.jpg')
+}
+
+#contact {
+  /* overriding content-area padding class also applied to hex-image */
+  padding-bottom: 85px;
 }
 
 
