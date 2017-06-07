@@ -196,10 +196,12 @@ strong {
 
 #project-1 {
   background-image: url('../img/project_1.png');
+  background-position: center;
 }
 
 #project-2 {
   background-image: url('../img/project_2.png');
+  background-position: center;
 }
 
 .skills .content-card-outer {
