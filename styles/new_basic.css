@@ -5,9 +5,10 @@ html {
 
 h1 {
   color: white;
+  font-family: sans-serif;
   font-size: 55px;
-  letter-spacing: 5px;
-  font-weight: 900;
+  letter-spacing: 1px;
+  font-weight: 600;
 }
 
 a {
@@ -474,16 +475,21 @@ a {
 }
 */
 h4 {
-  font-size: 45px;
-  font-weight: 900px;
-  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-size: 33px;
+  letter-spacing: 0px;
+  font-weight: 200;
 }
 
 h5 {
   font-family: sans-serif;
-  font-size: 26px;
-  font-weight: 600px;
+  font-weight: 200;
+  font-size: 23px;
   letter-spacing: 0px;
+}
+
+h5 strong {
+  font-weight: 900;
 }
 
 img {
@@ -506,7 +512,7 @@ img {
 
 .project-image-overlap-text {
     position: absolute;
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
   width: 135px;
   height: 35px;
   padding-left: 10px;
@@ -517,8 +523,11 @@ img {
   color: white;
   line-height: 35px;
   vertical-align: middle;
-  letter-spacing: 1px;
   font-weight: 900;
+  font-family: sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  letter-spacing: 0px;
 }
 
 .project-image-overlap-text-white {
@@ -559,6 +568,11 @@ img {
 
 .scaled2 {
   transform: rotate(90deg) scaleX(1);
+}
+
+.view {
+  vertical-align: bottom;
+  padding-bottom: 25px;
 }
 
 /* PROJECTS END */
