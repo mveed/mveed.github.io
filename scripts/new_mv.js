@@ -173,7 +173,7 @@ $("a").on('click', function(scrollLocation) {
 
     // Using jQuery's animate() method to add smooth page scroll
     // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-    $('html').animate({
+    $('html, body').animate({
       scrollTop: $(position).offset().top
     }, 1000, function(){
 
