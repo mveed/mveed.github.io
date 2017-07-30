@@ -161,11 +161,12 @@ $(".square").hover(function enterSquare() {
 
 /*  ANCHOR LINKS SMOOTH SCROLLING */
 function bindAnchorLinkSmoothScroll() {
-$("a").on('click', function(scrollLocation) {
+$(".nav").on('click', function(scrollLocation) {
 
   // Make sure this.hash has a value before overriding default behavior
 
     // Prevent default anchor click behavior
+
     scrollLocation.preventDefault();
 
     // Store hash

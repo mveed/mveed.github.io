@@ -352,7 +352,8 @@ a {
 
 @media only screen and (max-width: 400px) {
   .nav-item-horizontal2 {
-    display: none;
+    width: 5px;
+    top: 933px;
   }
 }
 
