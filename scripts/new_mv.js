@@ -8,7 +8,7 @@ $(window).on("load", function() {
   createProjectsParticleSystem();
   bindHoverProjectEvents();
   bindBackToTopFader();
-  bindAnchorLinkSmoothScroll()
+  bindAnchorLinkSmoothScroll();
   projectsFadeIn();
 /* assign nav underline scaling on hover */
 $(".nav-item").hover(function(){

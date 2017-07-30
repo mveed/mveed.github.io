@@ -16,7 +16,6 @@ a {
   color: white;
 }
 
-
 .container-all {
   width: 100%;
   margin: 0px auto;
@@ -25,6 +24,7 @@ a {
   text-align: center;
   overflow-y: hidden;
 }
+
 
 /*  TITLE CONTAINER START */
 
@@ -52,7 +52,9 @@ a {
   }
 }
 
+
 /* TITLE LOADING BOX */
+
 .loading-box {
   background-color: white;
   margin: 5px auto;
@@ -72,7 +74,7 @@ a {
 }
 
 .rotate {
-    transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .loading-box-bottom {
@@ -97,7 +99,6 @@ a {
   transition: top 1s ease;
   top: 685px;
 }
-
 
 .loader-upper {
   background-color: rgb(0, 0, 0);
@@ -134,7 +135,6 @@ a {
   font-weight: 200;
 }
 
-
 .animate {
   transform: scaleY(0);
   background-color: rgb(0, 0, 0);
@@ -146,7 +146,6 @@ a {
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0);
 }
-
 
 .loadingcircle {
   width: 66px;
@@ -181,9 +180,12 @@ a {
   left: 10%;
 }
 
+
 /* END TITLE LOADING BOX */
 
+
 /* TITLE WORDS */
+
 .title-text {
   color: white;
   position: relative;
@@ -195,6 +197,7 @@ a {
 .title-text-fade-in {
   opacity: 1;
 }
+
 .title-text-mv {
   /* orig
   font-size: 52px;
@@ -223,6 +226,7 @@ a {
   font-weight: 900;
 }
 
+
 /*
 @media only screen and (max-width: 835px) {
   .title-text-mv {
@@ -243,18 +247,20 @@ a {
     font-size: 27px;
     letter-spacing: 0px;
   }
-
   .title-text-mv-sub {
     font-size: 18px;
     letter-spacing: 0px;
-
   }
 }
+
 
 /* TITLE CONTAINER END *
 
 /* NAVIGATION START */
+
+
 /* B - Navigation Elements */
+
 .container-nav {
   display: inline-block;
   width: 100%;
@@ -266,7 +272,6 @@ a {
   z-index: 20;
   color: #f4f4f4;
 }
-
 
 .nav-item {
   margin: 25px 80px 10px 80px;
@@ -357,9 +362,12 @@ a {
   }
 }
 
+
 /*  NAV END */
 
+
 /* CONTAINER BODY START */
+
 .container-body {
   background-color: #050505;
   display: none;
@@ -372,12 +380,12 @@ a {
   opacity: 1;
 }
 
+
 /* PROJECTS MAIN START */
 
 .place-holder-black-175px {
   width: 100px;
   height: 175px;
-
 }
 
 .projects-title-container {
@@ -400,14 +408,15 @@ a {
   vertical-align: middle;
 }
 
-
 @media only screen and (max-width: 440px) {
   .projects-title-container-text h1 {
     letter-spacing: 3px;
   }
 }
 
+
 /*PROJECTS PARTICLE SYSTEM START */
+
 .projects-particle-system {
   margin: auto;
   background-color: #F4F4F4;
@@ -418,11 +427,13 @@ a {
   height: 5px;
   background-color: #f4f4f4;
   position: absolute;
-    transition: transform 1.7s ease;
-    transition: left 1.7s ease, top 1.7s ease, opacity 1.7s ease, width 1.7s ease, height 1.7s ease;
+  transition: transform 1.7s ease;
+  transition: left 1.7s ease, top 1.7s ease, opacity 1.7s ease, width 1.7s ease, height 1.7s ease;
 }
 
+
 /* PROJECTS PARTICLE SYSTEM END */
+
 
 /* PROJECTS ROWS START */
 
@@ -444,7 +455,7 @@ a {
   max-width: 490px;
   padding: 0px 15px 15px 15px;
   margin-top: 20px;
-/*  THIS LINE OF TEXT IS CAUSING VERTICAL OVERFLOW OVERFLOW - Y
+  /*  THIS LINE OF TEXT IS CAUSING VERTICAL OVERFLOW OVERFLOW - Y
     HIDING OVERFLOW-Y ON CONTAINER DIV TO SOLVE */
   vertical-align: top;
   transition: opacity 1s ease 0.5s;
@@ -453,6 +464,7 @@ a {
 
 
 /* GARBAGE CSS FOR PROJECTS IMAGE OVERLAYS STUFF */
+
 .project-image-background {
   display: inline-block;
   position: relative;
@@ -470,11 +482,14 @@ a {
   transition: opacity 1s ease;
   opacity: 1;
 }
+
+
 /* shadow transition for project images-- cant decide --
 .project-image-background:hover {
   box-shadow: 0px 0px 3px 1px #262626;
 }
 */
+
 h4 {
   font-family: sans-serif;
   font-size: 33px;
@@ -499,7 +514,6 @@ img {
   margin: auto;
 }
 
-
 @media only screen and (max-width: 400px) {
   .project-image-background {
     margin: 5px;
@@ -510,10 +524,8 @@ img {
   background-color: #EF4D30;
 }
 
-
 .project-image-overlap-text {
-    position: absolute;
-  font-family: sans-serif;
+  position: absolute;
   width: 135px;
   height: 35px;
   padding-left: 10px;
@@ -524,7 +536,6 @@ img {
   color: white;
   line-height: 35px;
   vertical-align: middle;
-  font-weight: 900;
   font-family: sans-serif;
   font-weight: 200;
   font-size: 14px;
@@ -559,8 +570,6 @@ img {
 .overlapb {
   width: 35px;
   transform: rotate(90deg) scaleX(0);
-
-
 }
 
 .scaled {
@@ -576,10 +585,11 @@ img {
   padding-bottom: 25px;
 }
 
+
 /* PROJECTS END */
 
-/* ABOUT START */
 
+/* ABOUT START */
 
 .about-place-holder-img {
   background-image: url("../img/title_bg_dark.jpg");
@@ -607,10 +617,13 @@ img {
   z-index: 100;
 }
 
+
 /* ABOUT PARTICAL CONTAINER */
+
 #about-row1 {
   position: relative;
 }
+
 .about-particle-container {
   width: 100%;
   overflow: hidden;
@@ -636,9 +649,12 @@ img {
   z-index: 2;
 }
 
+
 /* END ABOUT PARTICAL CONTAINER */
 
+
 /* END ABOUT */
+
 
 /* CONTACT START */
 
@@ -651,8 +667,9 @@ img {
 .contact-text {
   width: 400px;
   max-width: 90%;
-    text-align: left;
+  text-align: left;
 }
+
 
 /* BACK TO TOP IMAGE FADER */
 
@@ -678,15 +695,15 @@ img {
 }
 
 .trans {
-    transition: opacity 0.1s ease;
+  transition: opacity 0.1s ease;
   opacity: 0;
-    z-index: 1;
+  z-index: 1;
 }
 
 .trans-out {
-      transition: opacity 2.5s ease;
+  transition: opacity 2.5s ease;
   opacity: 1;
-    z-index: 2;
+  z-index: 2;
 }
 
 .text-to-top {
@@ -717,5 +734,6 @@ img {
   border-right: 20px solid transparent;
   border-bottom: 25px solid white;
 }
+
 
 /*  END BACK TO TOP IMAGE FADER */
