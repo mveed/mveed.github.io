@@ -1,4 +1,4 @@
-var currentData = new Object;
+var currentData = new Object; 
 var j = 0;
 var streams = ["esl_csgo", "esamarathon", "joshog", "moonmoon_ow"]
 $(document).ready(function onLoad() {
