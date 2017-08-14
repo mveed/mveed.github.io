@@ -1,11 +1,11 @@
-var currentData = new Object; 
+var currentData = new Object;
 var j = 0;
-var streams = ["esl_csgo", "esamarathon", "joshog", "moonmoon_ow"]
+var streams = ["esl_csgo", "esamarathon", "joshog", "moonmoon_ow"];
 $(document).ready(function onLoad() {
   function start(j) {
 if (j < 4) {
     gettingDataLoop(j);
-};
+}
   }
     start(j);
     function gettingDataLoop(j) {
@@ -22,19 +22,19 @@ if (j < 4) {
       if (currentData[j].stream !== null) {
       displayData(currentData, j);
       j = j + 1;
-      console.log("after add" + j)
+      console.log("after add" + j);
       start(j);
       }
     }
-  })
-  };
+  });
+  }
 
 
 function displayData(currentData, i) {
   $(".current-game" + i).html("<p>Currently: <strong>ONLINE </strong></p>");
   $(".icon" + i).css("background-image", "url('" + currentData[i].stream.channel.logo + "')");
   $(".stream-name" + i).html("<p>" + currentData[i].stream.channel.display_name + "</p>" );
-};
+}
 
 $(".container-row").click(function () {
   var id = $(this).attr('id');
