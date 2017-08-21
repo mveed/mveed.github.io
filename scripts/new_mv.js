@@ -94,7 +94,7 @@ $(".project-image-background").hover(function() {
 /* PROJECTS fade in on scroll into window */
 function projectsFadeIn() {
   setInterval(function () {
-for (i = 0; i < 5; i++) {
+for (i = 0; i < 6; i++) {
     console.log("fade in projects working");
   if (($("#project-row" + i).offset().top) < ($(window).scrollTop() + ($(window).height()/2 + 200))) {
     $("#project-row" + i).addClass("projects-container-row-fade-in");
