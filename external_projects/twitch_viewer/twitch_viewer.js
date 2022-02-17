@@ -1,6 +1,6 @@
 var currentData = new Object;
 var j = 0;
-var streams = ["esl_csgo", "bobross", "cgntv_", "moonmoon_ow"];
+var streams = ["BigCheeseKIT", "bobross", "cgntv_", "moonmoon_ow"];
 $(document).ready(function onLoad() {
   function start(j) {
 if (j < 4) {
